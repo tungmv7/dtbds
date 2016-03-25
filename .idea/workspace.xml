@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e060a10-b097-4121-893e-bdfcb8b6253e" name="Default" comment="" />
+    <ignored path="dautubatdongsan.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="dautubatdongsan" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/dtbds/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.13109756">
+              <caret line="18" column="78" selection-start-line="18" selection-start-column="78" selection-end-line="18" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentysixteen/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.375">
+              <caret line="23" column="28" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wp_bootstrap_navwalker.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/dtbds/wp_bootstrap_navwalker.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.791666">
+              <caret line="88" column="20" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
+              <folding>
+                <element signature="n#fallback#0;n#wp_bootstrap_navwalker#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/wp-content/themes/dtbds/footer.php" />
+        <option value="$PROJECT_DIR$/wp-includes/nav-menu-template.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/dtbds/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/dtbds/template-parts/banner-ads.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/dtbds/template-parts/project-home-items.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/dtbds/template-parts/project-home-featured.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/dtbds/template-parts/banner-ads-1.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/dtbds/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/dtbds/page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/dtbds/single.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/dtbds/template-parts/search-box.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/dtbds/template-parts/project-single-related.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/dtbds/taxonomy-project.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/dtbds/archive.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/dtbds/taxonomy-project-status.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/dtbds/page-mua-ban.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/dtbds/page_du-an.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/dtbds/template-parts/project-page-items.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/dtbds/template-parts/project-categories.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/dtbds/template-parts/project-page-breadcrumb.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/dtbds/single-du-an.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/dtbds/template-parts/project-single-breadcrumb.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/dtbds/wp_bootstrap_navwalker.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/dtbds/js/application.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/dtbds/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/dtbds/header.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1276" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dautubatdongsan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dautubatdongsan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dautubatdongsan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dautubatdongsan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dautubatdongsan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dautubatdongsan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dautubatdongsan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dautubatdongsan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dautubatdongsan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twentysixteen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dautubatdongsan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dautubatdongsan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twentysixteen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template-parts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dautubatdongsan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dautubatdongsan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dtbds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/themes/dtbds/template-parts" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/dtbds" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/dtbds/demos" />
+      <recent name="$PROJECT_DIR$/wp-content/themes/dtbds/images" />
+      <recent name="$PROJECT_DIR$/wp-content/plugins" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e060a10-b097-4121-893e-bdfcb8b6253e" name="Default" comment="" />
+      <created>1458807621316</created>
+      <option name="number" value="Default" />
+      <updated>1458807621316</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1276" height="777" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04573171">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentysixteen/languages/twentysixteen.pot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5955882">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/dtbds/assets/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3887195">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentysixteen/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1661586">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/pl-framework/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/pl-framework/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentysixteen/inc/customizer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33227345">
+          <caret line="527" column="9" selection-start-line="527" selection-start-column="5" selection-end-line="527" selection-end-column="9" />
+          <folding>
+            <element signature="e#6#140#0#PHP" expanded="true" />
+            <marker date="1452105090000" expanded="true" signature="12814:12869" placeholder="{...}" />
+            <marker date="1452105090000" expanded="true" signature="12907:12967" placeholder="{...}" />
+            <marker date="1452105090000" expanded="true" signature="13790:13839" placeholder="{...}" />
+            <marker date="1452105090000" expanded="true" signature="14628:14666" placeholder="{...}" />
+            <marker date="1452105090000" expanded="true" signature="15057:15106" placeholder="{...}" />
+            <marker date="1452105090000" expanded="true" signature="15347:15392" placeholder="{...}" />
+            <marker date="1452105090000" expanded="true" signature="15795:15838" placeholder="{...}" />
+            <marker date="1452105090000" expanded="true" signature="16086:16136" placeholder="{...}" />
+            <marker date="1452105090000" expanded="true" signature="16683:16737" placeholder="{...}" />
+            <marker date="1452105090000" expanded="true" signature="16934:16982" placeholder="{...}" />
+            <marker date="1452105090000" expanded="true" signature="17663:17711" placeholder="{...}" />
+            <marker date="1452105090000" expanded="true" signature="17778:17837" placeholder="{...}" />
+            <marker date="1452105090000" expanded="true" signature="18428:18552" placeholder="{...}" />
+            <marker date="1452105090000" expanded="true" signature="18565:18697" placeholder="{...}" />
+            <marker date="1452105090000" expanded="true" signature="18740:19340" placeholder="{...}" />
+            <marker date="1452105090000" expanded="true" signature="18807:18847" placeholder="{...}" />
+            <marker date="1452105090000" expanded="true" signature="18903:18952" placeholder="{...}" />
+            <marker date="1452105090000" expanded="true" signature="18986:19090" placeholder="{...}" />
+            <marker date="1452105090000" expanded="true" signature="19120:19182" placeholder="{...}" />
+            <marker date="1452105090000" expanded="true" signature="19215:19337" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/acf-flexible-content/js/input.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1435601146000" expanded="true" signature="6831:6860" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentysixteen/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3887195">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/nav-menu-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.445122">
+          <caret line="251" column="9" selection-start-line="251" selection-start-column="9" selection-end-line="251" selection-end-column="9" />
+          <folding>
+            <element signature="e#6#117#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/acf-gallery/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30882353">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/dtbds/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7154213">
+          <caret line="100" column="26" selection-start-line="100" selection-start-column="26" selection-end-line="100" selection-end-column="26" />
+          <folding>
+            <element signature="n#footer#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro/api/api-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2987805">
+          <caret line="148" column="4" selection-start-line="148" selection-start-column="4" selection-end-line="148" selection-end-column="4" />
+          <folding>
+            <marker date="1435601146000" expanded="true" signature="7518:7619" placeholder="SELECT optio... ${$wpdb-&gt;options}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields/core/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33231708">
+          <caret line="245" column="47" selection-start-line="245" selection-start-column="39" selection-end-line="245" selection-end-column="47" />
+          <folding>
+            <marker date="1457341131000" expanded="true" signature="1986:2087" placeholder="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1457341131000" expanded="true" signature="2281:2382" placeholder="SELECT meta_... ${$wpdb-&gt;usermeta}" />
+            <marker date="1457341131000" expanded="true" signature="2483:2548" placeholder="SELECT optio... ${$wpdb-&gt;options}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49237806">
+          <caret line="2788" column="23" selection-start-line="2788" selection-start-column="23" selection-end-line="2788" selection-end-column="23" />
+          <folding>
+            <marker date="1451706862000" expanded="true" signature="55007:55023" placeholder="Insert into post... " />
+            <marker date="1451706862000" expanded="true" signature="55033:55049" placeholder="Insert into page... " />
+            <marker date="1451706862000" expanded="true" signature="79088:79172" placeholder="SELECT post_... $" />
+            <marker date="1451706862000" expanded="true" signature="81108:81259" placeholder="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="81429:81522" placeholder="SELECT COUNT... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="87249:87289" placeholder="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="88695:88763" placeholder="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="89063:89140" placeholder="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="89592:89657" placeholder="SELECT comme... ${$wpdb-&gt;comments}" />
+            <marker date="1451706862000" expanded="true" signature="89850:89904" placeholder="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1451706862000" expanded="true" signature="94492:94575" placeholder="SELECT comme... ${$wpdb-&gt;comments}" />
+            <marker date="1451706862000" expanded="true" signature="96497:96580" placeholder="UPDATE ${$wp... " />
+            <marker date="1451706862000" expanded="true" signature="114756:114797" placeholder="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="125368:125444" placeholder="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="126495:126630" placeholder="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="127726:127821" placeholder="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="138040:138085" placeholder="SELECT pinge... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="139608:139653" placeholder="SELECT pinge... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="140223:140269" placeholder="SELECT to_pi... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="141701:141753" placeholder="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="143685:143825" placeholder="SELECT ID, p... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="145308:145406" placeholder="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="145467:145544" placeholder="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="157475:157533" placeholder="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="161652:161692" placeholder="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="162810:162875" placeholder="SELECT comme... ${$wpdb-&gt;comments}" />
+            <marker date="1451706862000" expanded="true" signature="163069:163123" placeholder="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1451706862000" expanded="true" signature="163690:163809" placeholder="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1451706862000" expanded="true" signature="185190:185335" placeholder="SELECT post_... " />
+            <marker date="1451706862000" expanded="true" signature="185394:185535" placeholder="SELECT post_... " />
+            <marker date="1451706862000" expanded="true" signature="185635:185829" placeholder="SELECT DATE_... " />
+            <marker date="1451706862000" expanded="true" signature="196574:196684" placeholder="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1451706862000" expanded="true" signature="198224:198280" placeholder="SELECT ${$wp... ${$wpdb-&gt;posts}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/taxonomy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5503049">
+          <caret line="1078" column="42" selection-start-line="1078" selection-start-column="42" selection-end-line="1078" selection-end-column="42" />
+          <folding>
+            <marker date="1453268127000" expanded="true" signature="26962:27189" placeholder="SELECT tr.ob... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1453268127000" expanded="true" signature="34201:34343" placeholder="SELECT t.*, ${$wpdb-&gt;terms}" />
+            <marker date="1453268127000" expanded="true" signature="55046:55129" placeholder="SELECT ${$di... ${$wpdb-&gt;terms}" />
+            <marker date="1453268127000" expanded="true" signature="63704:63747" placeholder="SELECT term_... ${$wpdb-&gt;terms}" />
+            <marker date="1453268127000" expanded="true" signature="63767:63898" placeholder="SELECT tt.te... ${$wpdb-&gt;terms}" />
+            <marker date="1453268127000" expanded="true" signature="64826:64995" placeholder="SELECT tt.te... ${$wpdb-&gt;terms}" />
+            <marker date="1453268127000" expanded="true" signature="65092:65266" placeholder="SELECT tt.te... ${$wpdb-&gt;terms}" />
+            <marker date="1453268127000" expanded="true" signature="65358:65418" placeholder="SELECT term_... ${$wpdb-&gt;terms}" />
+            <marker date="1453268127000" expanded="true" signature="65505:65570" placeholder="SELECT term_... ${$wpdb-&gt;terms}" />
+            <marker date="1453268127000" expanded="true" signature="76808:76884" placeholder="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1453268127000" expanded="true" signature="77966:78041" placeholder="SELECT objec... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1453268127000" expanded="true" signature="78824:78878" placeholder="SELECT meta_... ${$wpdb-&gt;termmeta}" />
+            <marker date="1453268127000" expanded="true" signature="79505:79565" placeholder="SELECT COUNT... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1453268127000" expanded="true" signature="86476:86710" placeholder="SELECT ${$se... ${$wpdb-&gt;terms}" />
+            <marker date="1453268127000" expanded="true" signature="87918:88143" placeholder="SELECT tr.te... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1453268127000" expanded="true" signature="94205:94233" placeholder="SELECT MAX(t... ${$wpdb-&gt;terms}" />
+            <marker date="1453268127000" expanded="true" signature="96698:96853" placeholder="SELECT tt.te... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1453268127000" expanded="true" signature="97546:97775" placeholder="SELECT t.ter... ${$wpdb-&gt;terms}" />
+            <marker date="1453268127000" expanded="true" signature="101906:102007" placeholder="SELECT term_... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1453268127000" expanded="true" signature="102993:103112" placeholder="SELECT tt.te... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1453268127000" expanded="true" signature="103763:103934" placeholder="INSERT INTO ${$wpdb-&gt;term_relationships}... " />
+            <marker date="1453268127000" expanded="true" signature="106685:106780" placeholder="DELETE FROM " />
+            <marker date="1453268127000" expanded="true" signature="109715:109778" placeholder="SELECT slug ${$wpdb-&gt;terms}" />
+            <marker date="1453268127000" expanded="true" signature="109844:109889" placeholder="SELECT slug ${$wpdb-&gt;terms}" />
+            <marker date="1453268127000" expanded="true" signature="110061:110106" placeholder="SELECT slug ${$wpdb-&gt;terms}" />
+            <marker date="1453268127000" expanded="true" signature="113799:113827" placeholder="SELECT MAX(t... ${$wpdb-&gt;terms}" />
+            <marker date="1453268127000" expanded="true" signature="115115:115270" placeholder="SELECT tt.te... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1453268127000" expanded="true" signature="116914:116989" placeholder="SELECT objec... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1453268127000" expanded="true" signature="123523:123609" placeholder="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1453268127000" expanded="true" signature="131664:131931" placeholder="SELECT objec... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1453268127000" expanded="true" signature="134069:134403" placeholder="SELECT COUNT... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1453268127000" expanded="true" signature="134268:134330" placeholder="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1453268127000" expanded="true" signature="134493:134728" placeholder="SELECT COUNT... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1453268127000" expanded="true" signature="135577:135651" placeholder="SELECT COUNT... ${$wpdb-&gt;term_relationships}" />
+            <marker date="1453268127000" expanded="true" signature="137980:138076" placeholder="SELECT COUNT... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1453268127000" expanded="true" signature="138436:138504" placeholder="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1453268127000" expanded="true" signature="138769:138820" placeholder="SELECT t.* F... ${$wpdb-&gt;terms}" />
+            <marker date="1453268127000" expanded="true" signature="139527:139589" placeholder="SELECT * FRO... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1453268127000" expanded="true" signature="139672:139757" placeholder="SELECT term_... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1453268127000" expanded="true" signature="140391:140451" placeholder="SELECT taxon... ${$wpdb-&gt;term_taxonomy}" />
+            <marker date="1453268127000" expanded="true" signature="141164:141361" placeholder="SELECT tt.te... $" />
+            <marker date="1453268127000" expanded="true" signature="143065:143263" placeholder="SELECT tt.te... $" />
+            <marker date="1453268127000" expanded="true" signature="143992:144068" placeholder="SELECT * FRO... $" />
+            <marker date="1453268127000" expanded="true" signature="147111:147513" placeholder="SELECT m1.po... $" />
+            <marker date="1453268127000" expanded="true" signature="150197:150257" placeholder="SELECT COUNT... ${$wpdb-&gt;term_taxonomy}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentysixteen/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45731708">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentysixteen/template-parts/content-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61737806">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentysixteen/inc/back-compat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15396342">
+          <caret line="40" column="7" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentysixteen/inc/template-tags.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.7332318">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentysixteen/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20579268">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentysixteen/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.292528">
+          <caret line="137" column="28" selection-start-line="137" selection-start-column="28" selection-end-line="137" selection-end-column="28" />
+          <folding>
+            <element signature="e#6#1001#0#PHP" expanded="false" />
+            <element signature="n#twentysixteen_widgets_init#0;n#!!top" expanded="false" />
+            <element signature="e#5814#7023#1#PHP" expanded="false" />
+            <element signature="n#twentysixteen_body_classes#0;n#!!top" expanded="false" />
+            <element signature="n#twentysixteen_hex2rgb#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/dtbds/template-parts/banner-ads-1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06859756">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/dtbds/template-parts/banner-ads-2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06859756">
+          <caret line="3" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/dtbds/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5945122">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentysixteen/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5884146">
+          <caret line="50" column="46" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+          <folding>
+            <element signature="e#6#471#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/dtbds/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22865854">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentysixteen/template-parts/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38262194">
+          <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4753577">
+          <caret line="785" column="37" selection-start-line="785" selection-start-column="37" selection-end-line="785" selection-end-column="37" />
+          <folding>
+            <marker date="1453264707000" expanded="true" signature="95032:95123" placeholder="SELECT ${$di... ${$wpdb-&gt;comments}" />
+            <marker date="1453264707000" expanded="true" signature="103326:103422" placeholder="SELECT ${$fo... ${$wpdb-&gt;posts}" />
+            <marker date="1453264707000" expanded="true" signature="105274:105378" placeholder="SELECT ${$fo... ${$wpdb-&gt;posts}" />
+            <marker date="1453264707000" expanded="true" signature="107781:107862" placeholder="SELECT ${$wp... ${$wpdb-&gt;comments}" />
+            <marker date="1453264707000" expanded="true" signature="143909:144046" placeholder="SELECT post_... ${$wpdb-&gt;postmeta}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/dtbds/template-parts/project-home-featured.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3429878">
+          <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+          <folding>
+            <element signature="e#253#3467#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/dtbds/template-parts/search-box.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16006097">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/dtbds/template-parts/project-home-items.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16006097">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/dtbds/template-parts/project-single-related.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5487805">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding>
+            <element signature="e#1416#2814#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentysixteen/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3887195">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/dtbds/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5259146">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/dtbds/page_du-an.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11432927">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/dtbds/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3445122">
+          <caret line="762" column="9" selection-start-line="762" selection-start-column="9" selection-end-line="762" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/dtbds/template-parts/project-categories.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22865854">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/dtbds/template-parts/project-page-breadcrumb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6402439">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/dtbds/template-parts/project-single-breadcrumb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18292683">
+          <caret line="8" column="93" selection-start-line="8" selection-start-column="93" selection-end-line="8" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/dtbds/template-parts/project-page-items.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18292683">
+          <caret line="41" column="39" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/dtbds/single-du-an.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.315549">
+          <caret line="151" column="2" selection-start-line="151" selection-start-column="2" selection-end-line="151" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/dtbds/wp_bootstrap_navwalker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.791666">
+          <caret line="88" column="20" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
+          <folding>
+            <element signature="n#fallback#0;n#wp_bootstrap_navwalker#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/dtbds/js/fhmm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41911766">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/dtbds/js/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41911766">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentysixteen/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.375">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/dtbds/taxonomy-project-status.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20579268">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/dtbds/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42835367">
+          <caret line="2201" column="20" selection-start-line="2201" selection-start-column="20" selection-end-line="2201" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/dtbds/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13109756">
+          <caret line="18" column="78" selection-start-line="18" selection-start-column="78" selection-end-line="18" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
