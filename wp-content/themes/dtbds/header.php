@@ -71,8 +71,8 @@
 			<div class="col-lg-4 col-md-6 col-sm-12">
 				<div class="logo-wrapper clearfix">
 					<div class="logo">
-						<a href="demo-index.html" title="Home">
-							<img src="<?= get_template_directory_uri() ?>/images/logo.png" alt="Estate">
+						<a href="<?= pll_home_url() ?>" title="<?= pll__("Home") ?>">
+							<img src="<?= get_template_directory_uri() ?>/images/logo.png">
 						</a>
 					</div><!-- /.site-name -->
 				</div><!-- /.logo-wrapper -->

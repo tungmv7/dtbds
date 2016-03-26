@@ -9,13 +9,12 @@
 
 get_header(); ?>
 <?php
-
 while(have_posts()): the_post();
-$type = isset(wp_get_post_terms(get_the_ID(), 'project-type')[0]) ? wp_get_post_terms(get_the_ID(), 'project-type')[0] : '';
-$price = get_field("project_price_information");
-$price = is_numeric($price) ? number_format($price, 0, ",", ".") . " đ" : $price;
+    $prjData = getProjectData(get_post());
 ?>
-<?= get_template_part('template-parts/project', 'single-breadcrumb') ?>
+<?= get_template_part_with_vars('template-parts/breadcrumb', null,
+    ['items' => getBreadcrumbItems("project-detail")]
+) ?>
 <section class="generalwrapper dm-shadow clearfix">
     <div class="container">
         <div class="row">
@@ -59,14 +58,13 @@ $price = is_numeric($price) ? number_format($price, 0, ",", ".") . " đ" : $pric
 
                     <div class="title clearfix">
                         <h3><?= the_title() ?>
-                            <small class="small_title"><?= $type->name ?> <mark><?= $price ?></mark></small>
+                            <small class="small_title"><?= $prjData['type'] ?> <mark><?= $prjData['price'] ?></mark></small>
                         </h3>
                     </div>
 
                     <?php
                         $project_properties = [
-                            ['type first', '', pll__("Type"), 'Villa'],
-                            ['sqft', 'icon-sqft', pll__("Area"), '140'],
+                            ['sqft first', 'icon-sqft', pll__("Area"), '140'],
                             ['garage', 'icon-sqft', pll__("Garage"), '2'],
                             ['bedrooms', 'icon-bed', pll__("Beds"), '3'],
                             ['status', 'icon-bath', pll__("Baths"), '1'],
@@ -127,7 +125,25 @@ $price = is_numeric($price) ? number_format($price, 0, ",", ".") . " đ" : $pric
                 <div class="property_wrapper boxes clearfix">
                     <h3 class="big_title"><?= pll__("Similar Properties") ?><small><?= pll__("View other properties from this agent") ?></small></h3>
                     <div class="row">
-                        <?= get_template_part('template-parts/project', 'single-related') ?>
+                        <?php
+                        $term = isset(wp_get_post_terms(get_the_ID(), 'project-status')[0]) ? wp_get_post_terms(get_the_ID(), 'project-status')[0] : false;
+                        if ($term){
+                            $currentID = get_the_ID();
+                            $projects = getProjects(4, 1, [
+                                'tax_query' => [
+                                    'taxonomy' => 'project-status',
+                                    'field' => 'slug',
+                                    'terms' => $term->slug
+                                ]
+                            ]);
+                            while ($projects->have_posts()) {
+                                $projects->the_post();
+                                if (get_the_ID() != $currentID && $count < 4) {
+                                    get_template_part('template-parts/project', 'item-2');
+                                }
+                            }
+                        }
+                        ?>
                     </div><!-- end row -->
                 </div>
 

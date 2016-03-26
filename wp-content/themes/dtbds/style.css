@@ -1151,7 +1151,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 		border-right: 1px solid #EFEFEF;
 		float: left;
 		padding: 10px 5px;
-		width: 11.8%;
+		width: 14%;
 	}
 	
 	.property_wrapper div.boxed_mini_details1 span:last-child {
@@ -2218,6 +2218,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 	.panel-project .panel-title > a > i.fa {
 		margin-right: 8px;
+	}
+
+	.blog-media .img-responsive {
+		width: 100%;
 	}
 
 	/*.page-template ul.nav.navbar-nav > li:first-child {margin-left: -15px;}*/
