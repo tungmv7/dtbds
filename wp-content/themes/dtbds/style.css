@@ -2223,5 +2223,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	.blog-media .img-responsive {
 		width: 100%;
 	}
-
+	.agent_desc.small-desc > p > span{
+		text-overflow: ellipsis;
+		overflow: hidden;
+		display: block;
+		white-space: nowrap;
+	}
 	/*.page-template ul.nav.navbar-nav > li:first-child {margin-left: -15px;}*/

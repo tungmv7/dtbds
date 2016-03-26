@@ -8,7 +8,7 @@ if ($prjData['thumbnail']):
             <span class="price"><?= $prjData['price'] ?></span>
             <a href="javascript:;" class="status"><?= $prjData['status'] ?></a>
         </div>
-        <img class="img-thumbnail" src="<?= $prjData['thumbnail'] ?>">
+        <a href="<?= get_permalink() ?>"><img class="img-thumbnail" src="<?= $prjData['thumbnail'] ?>"></a>
     </li>
 <?php
 endif;

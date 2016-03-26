@@ -177,7 +177,7 @@ function get_template_part_with_vars( $slug, $name = null, $vars=null ) {
     }
 }
 
-function getBreadcrumbItems($type, $args=[]) {
+function getBreadcrumbItems($type = false, $args=[]) {
     if ($type == 'news-detail') {
         return [
             ['link' => false, 'title' => get_the_title()]
@@ -220,5 +220,11 @@ function getBreadcrumbItems($type, $args=[]) {
         }
         $items[] = ['link' => false, 'title' => get_the_title()];
         return $items;
+    } else {
+        $baseUri = basename(get_page_link());
+        $page = get_page_by_path($baseUri);
+        return [
+            ['link' => false, 'title' => $page->post_title]
+        ];
     }
 }
