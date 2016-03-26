@@ -1,5 +1,5 @@
 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-    <div class="boxes agencies_widget first" data-effect="slide-bottom">
+    <div class="boxes agencies_widget first">
         <div class="col-lg-3">
             <div class="image">
                 <img class="img-responsive img-thumbnail" src="<?= get_the_post_thumbnail_url() ?>" alt="">

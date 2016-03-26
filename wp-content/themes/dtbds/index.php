@@ -28,7 +28,7 @@
                     <?= get_template_part('template-parts/project', 'categories') ?>
                 </div>
                 <div class="col-lg-7 col-md-9 col-sm-9 col-xs-12 clearfix">
-                    <div id="tabbed_widget" class="tabbable clearfix" data-effect="slide-bottom">
+                    <div id="tabbed_widget" class="tabbable clearfix">
                         <?php
                         $areas = get_terms("project-area", 'order=DESC');
                         if (!empty($areas)):
