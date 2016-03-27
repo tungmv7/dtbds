@@ -13,7 +13,7 @@ get_header(); ?>
 			</div><!-- #left_sidebar -->
 
 			<div id="content" class="col-lg-7 col-md-6 col-sm-6 col-xs-12 clearfix">
-				<div class="clearfix">
+				<div class="row clearfix">
 					<?php
 					$currentPage = get_query_var("paged") ? get_query_var("paged") : 1;
 					$news = getNews(18, $currentPage);
