@@ -237,10 +237,11 @@ function getBreadcrumbItems($type = false, $args=[]) {
     } else if ($type == 'project-location') {
         $baseUri = basename(get_page_link());
         $baseTerms = ['dau-tu', 'investment'];
+        $baseTermLabels = ['Đầu tư', 'Investment'];
         $items = [];
-        foreach($baseTerms as $base) {
+        foreach($baseTerms as $k => $base) {
             if (strpos($baseUri, $base) === 0) {
-                $items[] = ['link' => true, 'url' => pll_home_url().$base, 'title' => pll__("Investment")];
+                $items[] = ['link' => true, 'url' => pll_home_url().$base, 'title' => $baseTermLabels[$k]];
                 if (strlen($base) !== strlen($baseUri)) {
                     $projectType = str_replace($base . "-", "", $baseUri);
                     $term = get_term_by('slug', $projectType, 'project-area');
