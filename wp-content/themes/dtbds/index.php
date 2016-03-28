@@ -66,7 +66,7 @@
                                     $projects = getProjects(9, 1, [
                                         'tax_query' => [
                                             [
-                                                'taxonomy' => 'project-status',
+                                                'taxonomy' => 'project-area',
                                                 'field' => 'slug',
                                                 'terms' => $area->slug
                                             ]
