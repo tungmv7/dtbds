@@ -1,1 +1,0 @@
-<?php pl_searchform( true ); // Required in ALL WP Themes 

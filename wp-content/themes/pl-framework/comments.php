@@ -1,1 +1,0 @@
-<?php pl_comments();
