@@ -81,12 +81,8 @@
 			</div>
 			<div class="col-lg-5 col-md-5 col-sm-12  pull-right">
 				<div class="social clearfix pull-right">
-					<span><a data-placement="bottom" data-toggle="tooltip" data-original-title="Twitter" title="" href="demo-index.html#"><i class="fa fa-twitter"></i></a></span>
 					<span><a data-placement="bottom" data-toggle="tooltip" data-original-title="Facebook" title="" href="demo-index.html#"><i class="fa fa-facebook"></i></a></span>
 					<span><a data-placement="bottom" data-toggle="tooltip" data-original-title="Google Plus" title="" href="demo-index.html#"><i class="fa fa-google-plus"></i></a></span>
-					<span><a data-placement="bottom" data-toggle="tooltip" data-original-title="Linkedin" title="" href="demo-index.html#"><i class="fa fa-linkedin"></i></a></span>
-					<span><a data-placement="bottom" data-toggle="tooltip" data-original-title="Github" title="" href="demo-index.html#"><i class="fa fa-github"></i></a></span>
-					<span><a data-placement="bottom" data-toggle="tooltip" data-original-title="Pinterest" title="" href="demo-index.html#"><i class="fa fa-pinterest"></i></a></span>
 					<span><a data-placement="bottom" data-toggle="tooltip" data-original-title="RSS" title="" href="demo-index.html#"><i class="fa fa-rss"></i></a></span>
 				</div><!-- end social -->
 			</div>

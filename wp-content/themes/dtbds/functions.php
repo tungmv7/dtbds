@@ -234,7 +234,25 @@ function getBreadcrumbItems($type = false, $args=[]) {
             }
         }
         return $items;
-    } else if ($type == 'project-detail') {
+    } else if ($type == 'project-location') {
+        $baseUri = basename(get_page_link());
+        $baseTerms = ['dau-tu', 'investment'];
+        $items = [];
+        foreach($baseTerms as $base) {
+            if (strpos($baseUri, $base) === 0) {
+                $items[] = ['link' => true, 'url' => pll_home_url().$base, 'title' => pll__("Investment")];
+                if (strlen($base) !== strlen($baseUri)) {
+                    $projectType = str_replace($base . "-", "", $baseUri);
+                    $term = get_term_by('slug', $projectType, 'project-area');
+                    if ($term) {
+                        $items[] = ['link' => false, 'title' => $term->name];
+                    }
+                }
+                break;
+            }
+        }
+        return $items;
+    }  else if ($type == 'project-detail') {
         $items = [];
         if (isset(wp_get_post_terms(get_the_ID(), 'project-status')[0])) {
             $term = wp_get_post_terms(get_the_ID(), 'project-status')[0];

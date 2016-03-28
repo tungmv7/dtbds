@@ -2,7 +2,7 @@
 /* Template Name: Project Location Template */
 get_header(); ?>
 <?= get_template_part_with_vars('template-parts/breadcrumb', null,
-    ['items' => getBreadcrumbItems("project-page")]
+    ['items' => getBreadcrumbItems("project-location")]
 ) ?>
 <section class="generalwrapper dm-shadow clearfix">
     <div class="container">
