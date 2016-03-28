@@ -88,16 +88,9 @@ function getNews($postPerPage = 9, $currentPage = 1, $args = [], $type = 'post')
     }
 }
 
-function getProjects($postPerPage = 9, $currentPage = 1, $args = [], $type = 'du-an', $baseTerms = ['mua-ban', 'cho-thue', 'for-sale', 'for-rent']) {
-    $defaults = [
-        'post_type' => $type,
-        'post_status' => 'publish',
-        'posts_per_page' => $postPerPage,
-        'paged' => $currentPage,
-        'tax_query' => []
-    ];
-    $args = wp_parse_args($args, $defaults);
-
+function getCurrentProjectType() {
+    $args = [];
+    $baseTerms = ['mua-ban', 'cho-thue', 'for-sale', 'for-rent'];
     $baseUri = basename(get_page_link());
     foreach ($baseTerms as $base) {
         if (strpos($baseUri, $base) === 0) {
@@ -120,6 +113,40 @@ function getProjects($postPerPage = 9, $currentPage = 1, $args = [], $type = 'du
             break;
         }
     }
+    return $args;
+}
+
+function getCurrentProjectLocation() {
+    $args = [];
+    $baseTerms = ['dau-tu', 'investment'];
+    $baseUri = basename(get_page_link());
+    foreach ($baseTerms as $base) {
+        if (strpos($baseUri, $base) === 0) {
+
+            if (strlen($base) !== strlen($baseUri)) {
+                $projectType = str_replace($base . "-", "", $baseUri);
+                $args['tax_query'][] = [
+                    'taxonomy' => 'project-area',
+                    'field' => 'slug',
+                    'terms' => $projectType
+                ];
+            }
+
+            break;
+        }
+    }
+    return $args;
+}
+
+function getProjects($postPerPage = 9, $currentPage = 1, $args = [], $type = 'du-an') {
+    $defaults = [
+        'post_type' => $type,
+        'post_status' => 'publish',
+        'posts_per_page' => $postPerPage,
+        'paged' => $currentPage,
+        'tax_query' => []
+    ];
+    $args = wp_parse_args($args, $defaults);
 
     $my_query = new WP_Query($args);
     if ($my_query->have_posts()) {

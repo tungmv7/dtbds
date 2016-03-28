@@ -1,5 +1,5 @@
 <?php
-/* Template Name: Project Template */
+/* Template Name: Project Location Template */
 get_header(); ?>
 <?= get_template_part_with_vars('template-parts/breadcrumb', null,
     ['items' => getBreadcrumbItems("project-page")]
@@ -16,7 +16,7 @@ get_header(); ?>
                 <div class="row clearfix">
                     <?php
                     $currentPage = get_query_var("paged") ? get_query_var("paged") : 1;
-                    $projects = getProjects(18, $currentPage, getCurrentProjectType());
+                    $projects = getProjects(18, $currentPage, getCurrentProjectLocation());
                     if ($projects) {
                         while ($projects->have_posts()) {
                             $projects->the_post();

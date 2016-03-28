@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: custom post types, CPT, CMS, post, types, post type, cck, taxonomy, tax, custom
 Requires at least: 4.2
 Tested up to: 4.5
-Stable tag: 1.3.0
+Stable tag: 1.3.1
 License: GPLv2
 
 Admin UI for creating custom post types and custom taxonomies in WordPress
@@ -29,6 +29,9 @@ All official development on this plugin is on GitHub. Version bumps will still b
 8. Update Information/Donate screen.
 
 == Changelog ==
+
+= 1.3.1 - 2016-3-25 =
+* Fixed: Logic issue for default values of `public` parameter for taxonomies added in 1.3.0.
 
 = 1.3.0 - 2016-3-24 =
 * Added: "CPTUI_VERSION" constant and deprecated "CPT_VERSION".
@@ -56,10 +59,6 @@ All official development on this plugin is on GitHub. Version bumps will still b
 * Updated: Tested on WordPress 4.5
 * Updated: Cleaned up admin footer area for social links.
 * Updated: Moved all localization work to WordPress.org Translation packs
-
-= 1.2.4 =
-* Added: new CPTUI_VERSION constant to match naming of other current constants.
-* Added: CPTUI_VERSION constant to cptui.css string for cache busting.
 
 = 1.2.4 =
 * Added: new CPTUI_VERSION constant to match naming of other current constants.
@@ -195,6 +194,9 @@ All official development on this plugin is on GitHub. Version bumps will still b
 
 == Upgrade Notice ==
 
+= 1.3.1 - 2016-3-25 =
+* Fixed: Logic issue for default values of `public` parameter for taxonomies added in 1.3.0.
+
 = 1.3.0 =
 * Added: "CPTUI_VERSION" constant and deprecated "CPT_VERSION".
 * Added: "Public" parameter for taxonomies
@@ -221,10 +223,6 @@ All official development on this plugin is on GitHub. Version bumps will still b
 * Updated: Tested on WordPress 4.5
 * Updated: Cleaned up admin footer area for social links.
 * Updated: Moved all localization work to WordPress.org Translation packs
-
-= 1.2.4 =
-* Added: new CPTUI_VERSION constant to match naming of other current constants.
-* Added: CPTUI_VERSION constant to cptui.css string for cache busting.
 
 = 1.2.4 =
 * Added: new CPTUI_VERSION constant to match naming of other current constants.

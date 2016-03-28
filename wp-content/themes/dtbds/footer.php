@@ -1,5 +1,5 @@
 
-<footer class="footer1">
+<footer class="footer1" style="display: none;">
     <div class="container">
         <div class="row">
             <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 first clearfix">
@@ -55,17 +55,17 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-sm-6 col-md-6">
-                <p><small>Estate+ a real estate template. Copyright 2014</small>
-                    Preferred Hosting Partner - <a href="https://misshosting.com/hosting/" target="_blank">MissHosting.com,</a> Web Hosting at 1.00€ per month!</p>
+                <p>
+                    <small>COPYRIGHT <?= date("Y") ?>. Website DauTuBatDongSan.com.vn</small>
+                    <a href="javascript:;" target="_blank"><?= pll__("Get in touch with us") ?></a> -
+                    <a href="javascript:;" target="_blank"><?= pll__("Term of use") ?></a> -
+                    <a href="javascript:;" target="_blank"><?= pll__("About us") ?></a>
+                </p>
             </div>
             <div class="col-lg-6 col-sm-6 col-md-6">
                 <div class="social clearfix pull-right">
-                    <span><a data-placement="top" data-toggle="tooltip" data-original-title="Twitter" title="" href="demo-index.html#"><i class="fa fa-twitter"></i></a></span>
                     <span><a data-placement="top" data-toggle="tooltip" data-original-title="Facebook" title="" href="demo-index.html#"><i class="fa fa-facebook"></i></a></span>
                     <span><a data-placement="top" data-toggle="tooltip" data-original-title="Google Plus" title="" href="demo-index.html#"><i class="fa fa-google-plus"></i></a></span>
-                    <span><a data-placement="top" data-toggle="tooltip" data-original-title="Linkedin" title="" href="demo-index.html#"><i class="fa fa-linkedin"></i></a></span>
-                    <span><a data-placement="top" data-toggle="tooltip" data-original-title="Github" title="" href="demo-index.html#"><i class="fa fa-github"></i></a></span>
-                    <span><a data-placement="top" data-toggle="tooltip" data-original-title="Pinterest" title="" href="demo-index.html#"><i class="fa fa-pinterest"></i></a></span>
                     <span><a data-placement="top" data-toggle="tooltip" data-original-title="RSS" title="" href="demo-index.html#"><i class="fa fa-rss"></i></a></span>
                 </div><!-- end social -->
             </div>

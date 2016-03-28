@@ -10,9 +10,11 @@
                         </div>
                         <?php
                         $projects = getProjects(4);
-                        while ($projects->have_posts()){
-                            $projects->the_post();
-                            get_template_part('template-parts/project', 'item-3');
+                        if ($projects) {
+                            while ($projects->have_posts()) {
+                                $projects->the_post();
+                                get_template_part('template-parts/project', 'item-3');
+                            }
                         }
                         ?>
                     </div><!-- end row -->
@@ -34,24 +36,53 @@
                         if (!empty($areas)):
                             ?>
                             <ul class="nav nav-tabs">
-                                <li class="active"><a href=""><?= pll__("All") ?></a></li>
+                                <li class="active"><a data-toggle="tab" href="#prj-location-all"><?= pll__("All") ?></a></li>
                                 <?php
                                 foreach ($areas as $k => $area) {
-                                    echo "<li><a href=''>" . $area->name . "</a></li>";
+                                    echo "<li><a data-toggle=\"tab\" href='#prj-location-".$area->slug."'>" . $area->name . "</a></li>";
                                 }
                                 ?>
                             </ul>
                         <?php endif; ?>
                         <div class="tab-content tabbed_widget clearfix">
-                            <div class="tab-pane active" id="tab">
+                            <div class="tab-pane active" id="prj-location-all">
                                 <?php
                                 $projects = getProjects(6);
-                                while ($projects->have_posts()) {
-                                    $projects->the_post();
-                                    get_template_part('template-parts/project', 'item-2');
+                                if ($projects) {
+                                    while ($projects->have_posts()) {
+                                        $projects->the_post();
+                                        get_template_part('template-parts/project', 'item-2');
+                                    }
                                 }
                                 ?>
                             </div>
+
+                            <?php
+                                foreach($areas as $area):
+                            ?>
+                                <div class="tab-pane" id="prj-location-<?= $area->slug ?>">
+                                    <?php
+                                    $projects = getProjects(6, 1, [
+                                        'tax_query' => [
+                                            [
+                                                'taxonomy' => 'project-status',
+                                                'field' => 'slug',
+                                                'terms' => $area->slug
+                                            ]
+                                        ]
+                                    ]);
+                                    if ($projects) {
+                                        while ($projects->have_posts()) {
+                                            $projects->the_post();
+                                            get_template_part('template-parts/project', 'item-2');
+                                        }
+                                    }
+                                    ?>
+                                </div>
+                            <?php
+                                endforeach;
+
+                            ?>
                         </div>
                     </div>
                 </div>
@@ -78,9 +109,11 @@
                         </div>
                         <?php
                         $agencies = getAgencies(2);
-                        while ($agencies->have_posts()) {
-                            $agencies->the_post();
-                            get_template_part('template-parts/agency', 'item-1');
+                        if ($agencies) {
+                            while ($agencies->have_posts()) {
+                                $agencies->the_post();
+                                get_template_part('template-parts/agency', 'item-1');
+                            }
                         }
                         ?>
                     </div>
@@ -98,9 +131,11 @@
                         <ul class="slides">
                             <?php
                             $projects = getProjects(6);
-                            while ($projects->have_posts()) {
-                                $projects->the_post();
-                                get_template_part('template-parts/project', 'item-4');
+                            if ($projects) {
+                                while ($projects->have_posts()) {
+                                    $projects->the_post();
+                                    get_template_part('template-parts/project', 'item-4');
+                                }
                             }
                             ?>
                         </ul>
@@ -109,9 +144,11 @@
                         <ul class="slides">
                             <?php
                             $projects = getProjects(6);
-                            while ($projects->have_posts()) {
-                                $projects->the_post();
-                                get_template_part('template-parts/project', 'item-5');
+                            if ($projects) {
+                                while ($projects->have_posts()) {
+                                    $projects->the_post();
+                                    get_template_part('template-parts/project', 'item-5');
+                                }
                             }
                             ?>
                         </ul>
@@ -122,9 +159,11 @@
                     <h3 class="big_title"><?= pll__("News") . " & " . pll__("Updates") ?> <small><?= pll__("The most popular real estate news") ?></small></h3>
                     <?php
                     $news = getNews(2);
-                    while ($news->have_posts()) {
-                        $news->the_post();
-                        get_template_part('template-parts/news', 'item-1');
+                    if ($news) {
+                        while ($news->have_posts()) {
+                            $news->the_post();
+                            get_template_part('template-parts/news', 'item-1');
+                        }
                     }
                     ?>
                 </div><!-- end col7 -->
