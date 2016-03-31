@@ -56,7 +56,7 @@
             <div class="row">
                 <div class="col-lg-2 col-md-3 col-sm-3 col-xs-12 first clearfix">
                     <?= get_template_part('template-parts/project', 'categories') ?>
-                    <?= get_template_part('template-parts/banner', 'ads-3') ?>
+                    <?php dynamic_sidebar('ads-homepage-1') ?>
                 </div>
                 <div class="col-lg-7 col-md-9 col-sm-9 col-xs-12 clearfix">
                     <div id="tabbed_widget" class="tabbable clearfix">
@@ -118,12 +118,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-9 col-xs-12 last clearfix">
 
                     <?= get_template_part('template-parts/search', 'box') ?>
-
-                    <?= get_template_part('template-parts/banner', 'ads-2') ?>
-
-                    <?= get_template_part('template-parts/banner', 'ads-4') ?>
-
-                    <?= get_template_part('template-parts/banner', 'ads-4') ?>
+                    <?php dynamic_sidebar('ads-homepage-2') ?>
 
                 </div><!-- end col-lg-4 -->
             </div><!-- end row -->

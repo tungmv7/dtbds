@@ -8,7 +8,7 @@ get_header(); ?>
 		<div class="row">
 			<div id="left_sidebar" class="col-lg-2 col-md-3 col-sm-3 col-xs-12 first clearfix">
 				<?= get_template_part('template-parts/project', 'categories') ?>
-				<?= get_template_part('template-parts/banner', 'ads-1') ?>
+				<?php dynamic_sidebar('ads-content-1') ?>
 			</div><!-- #left_sidebar -->
 
 			<div id="content" class="col-lg-7 col-md-6 col-sm-6 col-xs-12 clearfix">

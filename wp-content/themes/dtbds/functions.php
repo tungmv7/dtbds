@@ -43,6 +43,47 @@ function dtbds_setup() {
 }
 add_action( 'after_setup_theme', 'dtbds_setup' );
 
+function twentysixteen_widgets_init() {
+    register_sidebar( array(
+        'name'          => __( 'Ads Homepage 1', 'dtbds' ),
+        'id'            => 'ads-homepage-1',
+        'description'   => __( 'Appears at the bottom of the content on posts and pages.', 'twentysixteen' ),
+        'before_widget' => '<section id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</section>',
+        'before_title'  => '<h2 class="widget-title">',
+        'after_title'   => '</h2>',
+    ) );
+    register_sidebar( array(
+        'name'          => __( 'Ads Homepage 2', 'dtbds' ),
+        'id'            => 'ads-homepage-2',
+        'description'   => __( 'Appears at the bottom of the content on posts and pages.', 'twentysixteen' ),
+        'before_widget' => '<section id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</section>',
+        'before_title'  => '<h2 class="widget-title">',
+        'after_title'   => '</h2>',
+    ) );
+    register_sidebar( array(
+        'name'          => __( 'Ads Content 1', 'dtbds' ),
+        'id'            => 'ads-content-1',
+        'description'   => __( 'Appears at the bottom of the content on posts and pages.', 'twentysixteen' ),
+        'before_widget' => '<section id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</section>',
+        'before_title'  => '<h2 class="widget-title">',
+        'after_title'   => '</h2>',
+    ) );
+    register_sidebar( array(
+        'name'          => __( 'Ads Content 2', 'dtbds' ),
+        'id'            => 'ads-content-2',
+        'description'   => __( 'Appears at the bottom of the content on posts and pages.', 'twentysixteen' ),
+        'before_widget' => '<section id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</section>',
+        'before_title'  => '<h2 class="widget-title">',
+        'after_title'   => '</h2>',
+    ) );
+}
+add_action( 'widgets_init', 'twentysixteen_widgets_init' );
+
+
 function getAgencies($postPerPage = 9, $currentPage = 1, $args = [], $type = 'agency') {
     $defaults = [
         'post_type' => $type,
