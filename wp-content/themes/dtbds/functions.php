@@ -16,6 +16,18 @@ function dtbds_setup() {
         'top_menu' => __( 'Primary Menu', 'dtbds' ),
     ) );
 
+    $contactPage = get_page_by_path('lien-he');
+    $contactData = [
+        'pageId' => $contactPage->ID,
+        'email' => get_field('contact_email', $contactPage->ID),
+        'phone' => get_field('contact_phone', $contactPage->ID),
+        'facebook' => get_field('contact_facebook', $contactPage->ID),
+        'address' => get_field('contact_address', $contactPage->ID),
+        'google-plus' => '',
+        'rss' => ''
+    ];
+    wp_cache_set('contact-data', $contactData);
+
 //    /*
 //     * Switch default core markup for search form, comment form, and comments
 //     * to output valid HTML5.

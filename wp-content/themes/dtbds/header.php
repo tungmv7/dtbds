@@ -36,8 +36,9 @@
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 				<div class="callus">
 					<p>
-						<span><i class="fa fa-envelope"></i> info@yoursite.com</span>
-						<span><i class="fa fa-phone-square"></i> +90 333 444 55 66</span>
+						<?php $contactData = wp_cache_get('contact-data'); ?>
+						<span><i class="fa fa-envelope"></i> <?= $contactData['email'] ?></span>
+						<span><i class="fa fa-phone-square"></i> <?= $contactData['phone'] ?></span>
 					</p>
 				</div><!-- end callus-->
 			</div><!-- end col-lg-6 -->
@@ -75,9 +76,9 @@
 			</div>
 			<div class="col-lg-5 col-md-5 col-sm-12  pull-right">
 				<div class="social clearfix pull-right">
-					<span><a data-placement="bottom" data-toggle="tooltip" data-original-title="Facebook" title="" href="demo-index.html#"><i class="fa fa-facebook"></i></a></span>
-					<span><a data-placement="bottom" data-toggle="tooltip" data-original-title="Google Plus" title="" href="demo-index.html#"><i class="fa fa-google-plus"></i></a></span>
-					<span><a data-placement="bottom" data-toggle="tooltip" data-original-title="RSS" title="" href="demo-index.html#"><i class="fa fa-rss"></i></a></span>
+					<span><a data-placement="bottom" data-toggle="tooltip" data-original-title="Facebook" title="" href="<?= $contactData['facebook'] ?>"><i class="fa fa-facebook"></i></a></span>
+					<span><a data-placement="bottom" data-toggle="tooltip" data-original-title="Google Plus" title="" href="<?= $contactData['google-plus'] ?>"><i class="fa fa-google-plus"></i></a></span>
+					<span><a data-placement="bottom" data-toggle="tooltip" data-original-title="RSS" title="" href="<?= $contactData['rss'] ?>"><i class="fa fa-rss"></i></a></span>
 				</div><!-- end social -->
 			</div>
 		</div><!-- end row -->
