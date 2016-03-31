@@ -50,8 +50,8 @@ function twentysixteen_widgets_init() {
         'description'   => __( 'Appears at the bottom of the content on posts and pages.', 'twentysixteen' ),
         'before_widget' => '<section id="%1$s" class="widget %2$s">',
         'after_widget'  => '</section>',
-        'before_title'  => '<h2 class="widget-title">',
-        'after_title'   => '</h2>',
+        'before_title'  => '<div class="title"><h3>',
+        'after_title'   => '</div></h3>',
     ) );
     register_sidebar( array(
         'name'          => __( 'Ads Homepage 2', 'dtbds' ),
@@ -59,8 +59,8 @@ function twentysixteen_widgets_init() {
         'description'   => __( 'Appears at the bottom of the content on posts and pages.', 'twentysixteen' ),
         'before_widget' => '<section id="%1$s" class="widget %2$s">',
         'after_widget'  => '</section>',
-        'before_title'  => '<h2 class="widget-title">',
-        'after_title'   => '</h2>',
+        'before_title'  => '<div class="title"><h3>',
+        'after_title'   => '</div></h3>',
     ) );
     register_sidebar( array(
         'name'          => __( 'Ads Content 1', 'dtbds' ),
@@ -68,8 +68,8 @@ function twentysixteen_widgets_init() {
         'description'   => __( 'Appears at the bottom of the content on posts and pages.', 'twentysixteen' ),
         'before_widget' => '<section id="%1$s" class="widget %2$s">',
         'after_widget'  => '</section>',
-        'before_title'  => '<h2 class="widget-title">',
-        'after_title'   => '</h2>',
+        'before_title'  => '<div class="title"><h3>',
+        'after_title'   => '</div></h3>',
     ) );
     register_sidebar( array(
         'name'          => __( 'Ads Content 2', 'dtbds' ),
@@ -77,8 +77,8 @@ function twentysixteen_widgets_init() {
         'description'   => __( 'Appears at the bottom of the content on posts and pages.', 'twentysixteen' ),
         'before_widget' => '<section id="%1$s" class="widget %2$s">',
         'after_widget'  => '</section>',
-        'before_title'  => '<h2 class="widget-title">',
-        'after_title'   => '</h2>',
+        'before_title'  => '<div class="title"><h3>',
+        'after_title'   => '</div></h3>',
     ) );
 }
 add_action( 'widgets_init', 'twentysixteen_widgets_init' );
