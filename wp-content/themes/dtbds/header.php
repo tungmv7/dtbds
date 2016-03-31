@@ -1,22 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html <?php language_attributes(); ?>>
 <head>
-	<meta charset="utf-8">
+	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 	<meta name="author" content="">
-
-	<title>ESTATE PLUS - Real Estate HTML5 Website Template</title>
 
 	<!-- Bootstrap core CSS -->
 	<link href="<?= get_template_directory_uri() ?>/assets/css/bootstrap.css" rel="stylesheet">
 
 	<!-- Style CSS -->
 	<link href="<?= get_template_directory_uri() ?>/style.css" rel="stylesheet">
-
-	<!-- Google Fonts -->
-<!--	<link href='http://fonts.googleapis.com/css?family=Lato:400,300,400italic,700,700italic,900' rel='stylesheet' type='text/css'>-->
-<!--	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic' rel='stylesheet' type='text/css'>-->
 
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>

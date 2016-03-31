@@ -64,12 +64,12 @@ while(have_posts()): the_post();
 
                     <?php
                         $project_properties = [
-                            ['sqft first', 'icon-sqft', pll__("Area"), '140'],
-                            ['garage', 'icon-sqft', pll__("Garage"), '2'],
-                            ['bedrooms', 'icon-bed', pll__("Beds"), '3'],
-                            ['status', 'icon-bath', pll__("Baths"), '1'],
-                            ['furnished', 'icon-furnished', pll__("Furnish"), 'Yes'],
-                            ['pool last', 'icon-pool', pll__("Pool"), '140']
+                            ['sqft first', 'icon-sqft', pll__("Area"), $prjData['des']['area']],
+                            ['garage', 'icon-garage', pll__("Garage"), $prjData['des']['garage']],
+                            ['bedrooms', 'icon-bed', pll__("Beds"), $prjData['des']['beds']],
+                            ['status', 'icon-bath', pll__("Baths"), $prjData['des']['baths']],
+                            ['furnished', 'icon-furnished', pll__("Furnish"), $prjData['des']['furnish'] ? pll__("yes") : pll__('no')],
+                            ['pool last', 'icon-pool', pll__("Pool"), $prjData['des']['pool'] ? pll__("yes") : pll__('no')]
                         ]
                     ?>
                     <div class="boxed_mini_details1 clearfix">

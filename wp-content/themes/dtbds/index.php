@@ -1,6 +1,34 @@
 <?php get_header(); ?>
 
-    <section id="three-parallax" class="parallax" style="background-image: url('<?= get_template_directory_uri() ?>/images/background.jpg');" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
+    <section id="one-parallax" class="parallax" style="background-image: url('<?= get_template_directory_uri() ?>/images/background.jpg');" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
+    <div class="mapandslider">
+        <div class="overlay1 dm-shadow">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div id="property-slider" class="clearfix">
+                            <div class="flexslider">
+                                <ul class="slides">
+                                    <?php
+                                    $projects = getProjects(4);
+                                    if ($projects) {
+                                        while ($projects->have_posts()) {
+                                            $projects->the_post();
+                                            get_template_part('template-parts/project', 'item-6');
+                                        }
+                                    }
+                                    ?>
+                                </ul><!-- end slides -->
+                            </div><!-- end flexslider -->
+                        </div><!-- end property-slider -->
+                    </div><!-- end col-lg-8 -->
+                </div><!-- end row -->
+            </div><!-- end dm_container -->
+        </div>
+    </div>
+</section><!-- end mapandslider -->
+
+    <section id="three-parallax" class="parallax" style="display:none; background-image: url('<?= get_template_directory_uri() ?>/images/background.jpg');" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
         <div class="threewrapper">
             <div class="overlay1 dm-shadow">
                 <div class="container">

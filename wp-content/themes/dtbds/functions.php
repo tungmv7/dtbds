@@ -3,34 +3,13 @@
 require_once('wp_bootstrap_navwalker.php');
 
 function dtbds_setup() {
-//    /*
-//     * Make theme available for translation.
-//     * Translations can be filed in the /languages/ directory.
-//     * If you're building a theme based on Twenty Sixteen, use a find and replace
-//     * to change 'twentysixteen' to the name of your theme in all the template files
-//     */
-//    load_theme_textdomain( 'dtbds', get_template_directory() . '/languages' );
-//
-//    // Add default posts and comments RSS feed links to head.
-//    add_theme_support( 'automatic-feed-links' );
-//
-//    /*
-//     * Let WordPress manage the document title.
-//     * By adding theme support, we declare that this theme does not use a
-//     * hard-coded <title> tag in the document head, and expect WordPress to
-//     * provide it for us.
-//     */
-//    add_theme_support( 'title-tag' );
-//
-//    /*
-//     * Enable support for Post Thumbnails on posts and pages.
-//     *
-//     * @link http://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
-//     */
-//    add_theme_support( 'post-thumbnails' );
-//    set_post_thumbnail_size( 1200, 9999 );
+
+    add_theme_support('title-tag');
 
     add_theme_support('post-thumbnails');
+
+    // crop
+    add_image_size("featured-project-image", 1280, 548, true);
 
     // This theme uses wp_nav_menu() in two locations.
     register_nav_menus( array(
@@ -157,22 +136,41 @@ function getProjects($postPerPage = 9, $currentPage = 1, $args = [], $type = 'du
 }
 
 function getProjectData($post) {
+
     $thumbnail = isset(get_field("project_gallery", $post->ID)[0]['sizes']['thumbnail']) ?
         get_field("project_gallery", $post->ID)[0]['sizes']['thumbnail'] : false;
+
+    $featured_project_image = isset(get_field("project_slideshow", $post->ID)['sizes']['featured-project-image']) ?
+        get_field("project_slideshow", $post->ID)['sizes']['featured-project-image'] : false;
+
     $image = isset(get_field("project_gallery", $post->ID)[0]['sizes']['large']) ?
         get_field("project_gallery", $post->ID)[0]['sizes']['large'] : false;
+
     $price = get_field("project_price_information", $post->ID);
     $price = is_numeric($price) ? number_format($price, 0, ",", ".") . " đ" : $price;
+
     $type = isset(wp_get_object_terms($post->ID, 'project-type', ['fields' => 'names'])[0]) ?
         wp_get_object_terms($post->ID, 'project-type', ['fields' => 'names'])[0] : '';
+
     $status = isset(wp_get_object_terms($post->ID, 'project-status', ['fields' => 'names'])[0]) ?
         wp_get_post_terms($post->ID, 'project-status', ['fields' => 'names'])[0] : '';
+
     return [
         'thumbnail' => $thumbnail,
         'type' => $type,
         'image' => $image,
         'status' => $status,
-        'price' => $price
+        'price' => $price,
+        'featured_project_image' => $featured_project_image,
+        'gerenal_information' => get_field("project_gerenal_information", $post->ID),
+        'des' => [
+            'area' => get_field("project_des_area", $post->ID),
+            'garage' => get_field("project_des_garage", $post->ID),
+            'baths' => get_field("project_des_bath", $post->ID),
+            'beds' => get_field("project_des_bed", $post->ID),
+            'furnish' => get_field("project_des_furniture", $post->ID),
+            'pool' => get_field("project_des_pool", $post->ID),
+        ]
     ];
 }
 
