@@ -13,11 +13,6 @@
 
             </div><!-- agencies_desc -->
         </div>
-        <div class="clearfix"></div>
-        <div class="agencies_meta">
-            <span><i class="fa fa-envelope"></i> <a href="mailto:<?= get_field("agency_email") ?>"><?= get_field("agency_email") ?></a></span>
-            <span><i class="fa fa-link"></i> <a href="<?= get_field("agency_website") ?>" target="_blank"><?= get_field("agency_website") ?></a></span>
-            <span><i class="fa fa-phone-square"></i> <?= get_field("agency_phone") ?></span>
-        </div><!-- end agencies_meta -->
+        <div class="clearfix" style="margin-bottom: 20px;"></div>
     </div><!-- end boxes -->
 </div>

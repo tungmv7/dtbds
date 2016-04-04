@@ -2230,3 +2230,13 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 		white-space: nowrap;
 	}
 	/*.page-template ul.nav.navbar-nav > li:first-child {margin-left: -15px;}*/
+	.contact-box ul {
+		margin: 1em 0;
+	}
+	.contact-box ul li {
+		list-style: none;
+		margin: 0;
+	}
+	.contact-box ul i.fa {
+		color: #19B8DF;
+	}

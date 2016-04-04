@@ -24,7 +24,8 @@ function dtbds_setup() {
         'facebook' => get_field('contact_facebook', $contactPage->ID),
         'address' => get_field('contact_address', $contactPage->ID),
         'google-plus' => '',
-        'rss' => ''
+        'rss' => '',
+        'thumbnail' => get_field('contact_gallery', $contactPage->ID)[0]
     ];
     wp_cache_set('contact-data', $contactData);
 

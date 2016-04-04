@@ -10,7 +10,13 @@
                                 <div class="flexslider">
                                     <ul class="slides">
                                         <?php
-                                        $projects = getProjects(4);
+                                        $projects = getProjects(5, 1, [
+                                            'tax_query' => [
+                                                'taxonomy' => 'mat-trang',
+                                                'field' => 'slug',
+                                                'terms' => 'noi-bat-trang-chu'
+                                            ]
+                                        ]);
                                         if ($projects) {
                                             while ($projects->have_posts()) {
                                                 $projects->the_post();
@@ -197,38 +203,6 @@
         </div><!-- end dm_container -->
     </section><!-- end secondwrapper -->
 
-    <section id="four-parallax" class="parallax" style="background-image: url('<?= get_template_directory_uri() ?>/images/background.jpg');" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
-        <div class="overlay1 dm-shadow">
-            <div class="container">
-                <div class="row">
-                    <div class="text-center clearfix">
-                        <h3 class="big_title"><?= pll__("Who are we ?") ?></h3>
-                    </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="boxes_img">
-                            <div id="slider-who-are-we" class="flexslider clearfix">
-                                <?php
-                                $contactPage = wp_cache_get('contact-data');
-                                $gallery = get_field('contact_gallery', $contactPage['pageId']);
-                                if ($gallery) {
-                                    echo "<ul class=\"slides\">";
-                                    foreach($gallery as $image) {
-                                        if (isset($image['sizes']['featured-project-image'])) {
-                                            echo "<li><a href=\"".pll_home_url()."lien-he\"><img class=\"img-thumbnail\" src=\"" . $image['sizes']['featured-project-image'] . "\"></a></li>";
-                                        }
-                                    }
-                                    echo "</ul>";
-                                }
-                                ?>
-
-                            </div>
-                        </div>
-                    </div><!-- end col-6 -->
-
-                </div><!-- end row -->
-            </div><!-- end dm_container -->
-        </div><!-- end overlay -->
-    </section>
 
 <?php
 wp_reset_query();
