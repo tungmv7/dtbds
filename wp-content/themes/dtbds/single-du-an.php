@@ -136,6 +136,7 @@ while(have_posts()): the_post();
                                     'terms' => $term->slug
                                 ]
                             ]);
+                            $count = 1;
                             while ($projects->have_posts()) {
                                 $projects->the_post();
                                 if (get_the_ID() != $currentID && $count < 4) {
@@ -146,7 +147,10 @@ while(have_posts()): the_post();
                         ?>
                     </div><!-- end row -->
                 </div>
-
+                <div class="property_wrapper boxes clearfix">
+                    <h3 class="big_title"><?= pll__("Comments") ?><small><?= pll__("View all comments about this project.") ?></small></h3>
+                    <div class="fb-comments" data-href="<?= get_permalink() ?>" data-width="100%" data-numposts="5"></div>
+                </div>
             </div><!-- end content -->
 
             <div id="right_sidebar" class="col-lg-3 col-md-3 col-sm-3 col-xs-12 last clearfix">
