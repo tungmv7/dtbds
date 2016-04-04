@@ -142,6 +142,7 @@ while(have_posts()): the_post();
                                 if (get_the_ID() != $currentID && $count < 4) {
                                     get_template_part('template-parts/project', 'item-2');
                                 }
+                                $count++;
                             }
                         }
                         ?>
