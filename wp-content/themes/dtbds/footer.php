@@ -24,18 +24,15 @@
 ================================================== -->
 <script src="<?= get_template_directory_uri() ?>/js/jquery-1.10.2.min.js"></script>
 <script src="<?= get_template_directory_uri() ?>/js/bootstrap.js"></script>
-<script src="<?= get_template_directory_uri() ?>/js/jquery.parallax.js"></script>
-<script src="<?= get_template_directory_uri() ?>/js/jquery.fitvids.js"></script>
-<script src="<?= get_template_directory_uri() ?>/js/jquery.unveilEffects.js"></script>
-<script src="<?= get_template_directory_uri() ?>/js/retina-1.1.0.js"></script>
-<script src="<?= get_template_directory_uri() ?>/js/fhmm.js"></script>
-<script src="<?= get_template_directory_uri() ?>/js/bootstrap-select.js"></script>
+<script src="<?= get_template_directory_uri() ?>/js/jquery.parallax.min.js"></script>
+<script src="<?= get_template_directory_uri() ?>/js/jquery.fitvids.min.js"></script>
+<script src="<?= get_template_directory_uri() ?>/js/fhmm.min.js"></script>
 <script src="<?= get_template_directory_uri() ?>/fancyBox/jquery.fancybox.pack.js"></script>
 <script src="<?= get_template_directory_uri() ?>/js/application.js"></script>
 
 <!-- FlexSlider JavaScript
 ================================================== -->
-<script src="<?= get_template_directory_uri() ?>/js/jquery.flexslider.js"></script>
+<script src="<?= get_template_directory_uri() ?>/js/jquery.flexslider.min.js"></script>
 <script>
     $(window).load(function() {
         $('#carousel').flexslider({
