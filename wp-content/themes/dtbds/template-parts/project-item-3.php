@@ -18,10 +18,10 @@ if ($prjData['thumbnail']):
                 <small class="small_title"><?= $prjData['type'] ?></small>
             </h2>
             <div class="boxed_mini_details1 clearfix">
-                <span class="garage first"><strong>Garage</strong><i class="icon-garage"></i> <?= $prjData['des']['garage'] ?></span>
-                <span class="bedrooms"><strong>Baths</strong><i class="icon-bed"></i> <?= $prjData['des']['baths'] ?></span>
-                <span class="status"><strong>Beds</strong><i class="icon-bath"></i> <?= $prjData['des']['beds'] ?></span>
-                <span class="sqft last"><strong>Area</strong><i class="icon-sqft"></i> <?= $prjData['des']['area'] ?></span>
+                <span class="garage first"><strong><?= pll__("Garage") ?></strong><i class="icon-garage"></i> <?= $prjData['des']['garage'] ?></span>
+                <span class="bedrooms"><strong><?= pll__("Baths") ?></strong><i class="icon-bed"></i> <?= $prjData['des']['baths'] ?></span>
+                <span class="status"><strong><?= pll__("Beds") ?></strong><i class="icon-bath"></i> <?= $prjData['des']['beds'] ?></span>
+                <span class="sqft last"><strong><?= pll__("Area") ?></strong><i class="icon-sqft"></i> <?= $prjData['des']['area'] ?></span>
             </div>
         </div><!-- end boxes -->
     </div>
