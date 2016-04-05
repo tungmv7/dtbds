@@ -2239,3 +2239,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	.contact-box ul i.fa {
 		color: #19B8DF;
 	}
+	.boxes h2.title a {
+		display: -webkit-box;
+		height: 28px;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}

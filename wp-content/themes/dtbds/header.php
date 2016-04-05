@@ -10,7 +10,7 @@
 	<link href="<?= get_template_directory_uri() ?>/assets/css/bootstrap.min.css" rel="stylesheet">
 
 	<!-- Style CSS -->
-	<link href="<?= get_template_directory_uri() ?>/style.min.css" rel="stylesheet">
+	<link href="<?= get_template_directory_uri() ?>/style.css" rel="stylesheet">
 
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
