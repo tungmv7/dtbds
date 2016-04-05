@@ -67,7 +67,7 @@
                 <div class="col-lg-7 col-md-9 col-sm-9 col-xs-12 clearfix">
                     <div id="tabbed_widget" class="tabbable clearfix">
                         <?php
-                        $areas = get_terms("project-area", 'order=DESC');
+                        $areas = get_terms("project-area", ['orderby' => 'count', 'limit' => 5, 'order' => 'DESC']);
                         if (!empty($areas)):
                             ?>
                             <ul class="nav nav-tabs">
@@ -124,6 +124,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-9 col-xs-12 last clearfix">
 
                     <?= get_template_part('template-parts/search', 'box') ?>
+                    <?= get_template_part('template-parts/contact', 'box') ?>
                     <?php dynamic_sidebar('ads-homepage-2') ?>
 
                 </div><!-- end col-lg-4 -->

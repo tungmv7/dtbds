@@ -43,7 +43,7 @@
     <div class="clearfix"></div>
     <hr>
     <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-        <p><?= pll__("For faster results, please use the advanced form above") ?>.<br> <a href="contact.html"><?= pll__("Get in touch with us") ?></a></p>
+        <p><?= pll__("For faster results, please use the advanced form above") ?>.<br> <a href="/lien-he"><?= pll__("Get in touch with us") ?></a></p>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
         <input type="submit" class="btn btn-primary btn-block" value="<?= pll__("Search") ?>">
