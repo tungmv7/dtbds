@@ -140,15 +140,28 @@
                         <div class="text-center clearfix">
                             <h3 class="big_title"><?= pll__("Agencies") ?> <small><?= pll__("Some real estate agencies working with us") ?></small></h3>
                         </div>
-                        <?php
-                        $agencies = getAgencies(2);
-                        if ($agencies) {
-                            while ($agencies->have_posts()) {
-                                $agencies->the_post();
-                                get_template_part('template-parts/agency', 'item-1');
+                        <div id="slider-agency" class="flexslider">
+                            <ul class="slides">
+                            <?php
+                            $agencies = getAgencies(6);
+                            if ($agencies) {
+                                $count = 0;
+                                while ($agencies->have_posts()) {
+                                    if ($count % 2 == 0) {
+                                        echo "<li>";
+                                    }
+                                    $agencies->the_post();
+                                    get_template_part('template-parts/agency', 'item-1');
+
+                                    if ($count % 2 != 0 || $count == ($agencies->post_count - 1)) {
+                                        echo "</li>";
+                                    }
+                                    $count++;
+                                }
                             }
-                        }
-                        ?>
+                            ?>
+                            </ul>
+                        </div>
                     </div>
                 </div><!-- end container -->
             </div><!-- end overlay1 -->

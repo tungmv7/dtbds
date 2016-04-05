@@ -46,6 +46,13 @@
             asNavFor: '#slider'
         });
 
+        $('#slider-agency').flexslider({
+            animation: "fade",
+            controlNav: false,
+            animationLoop: false,
+            slideshow: true,
+        });
+
         $('#slider').flexslider({
             animation: "fade",
             controlNav: false,
