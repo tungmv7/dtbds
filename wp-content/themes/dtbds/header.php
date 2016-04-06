@@ -41,7 +41,7 @@
 <div class="topbar clearfix">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+			<div class="col-sm-8 col-xs-12">
 				<div class="callus">
 					<p>
 						<?php $contactData = wp_cache_get('contact-data'); ?>
@@ -50,7 +50,7 @@
 					</p>
 				</div><!-- end callus-->
 			</div><!-- end col-lg-6 -->
-			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+			<div class="col-sm-4 col-xs-12">
 				<div class="marketing">
 					<?php $translations = pll_the_languages(array('raw'=>1)); ?>
 					<ul class="topflags pull-right">
@@ -70,19 +70,20 @@
 
 <header class="header1">
 	<div class="container">
-		<div class="row header-row">
-			<div class="col-lg-4 col-md-6 col-sm-12">
+		<div class="row header-row hidden-xs">
+			<div class="col-sm-8 col-xs-12 text-left">
 				<div class="logo-wrapper clearfix">
 					<div class="logo">
 						<a href="<?= pll_home_url() ?>" title="<?= pll__("Home") ?>">
 							<img src="<?= get_template_directory_uri() ?>/images/logo.png">
 						</a>
+						<button type="button" data-toggle="collapse" data-target="#defaultmenu" class="navbar-toggle">
+							<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+						</button>
 					</div><!-- /.site-name -->
 				</div><!-- /.logo-wrapper -->
 			</div>
-			<div class="col-lg-3 col-md-6 col-sm-12">
-			</div>
-			<div class="col-lg-5 col-md-5 col-sm-12  pull-right">
+			<div class="col-sm-4 col-xs-12 text-right">
 				<div class="social clearfix pull-right">
 					<span><a data-placement="bottom" data-toggle="tooltip" data-original-title="Facebook" title="" href="<?= $contactData['facebook'] ?>"><i class="fa fa-facebook"></i></a></span>
 					<span><a data-placement="bottom" data-toggle="tooltip" data-original-title="Google Plus" title="" href="<?= $contactData['google-plus'] ?>"><i class="fa fa-google-plus"></i></a></span>
@@ -96,6 +97,9 @@
 		<nav class="navbar navbar-default fhmm" role="navigation">
 			<div class="menudrop container">
 				<div class="navbar-header">
+					<a class="logo-inline" href="<?= pll_home_url() ?>" title="<?= pll__("Home") ?>">
+						<img src="<?= get_template_directory_uri() ?>/images/logo.png">
+					</a>
 					<button type="button" data-toggle="collapse" data-target="#defaultmenu" class="navbar-toggle">
 						<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 					</button>
@@ -105,6 +109,7 @@
 						'menu' => 'top_menu',
 						'theme_location' => 'top_menu',
 						'depth' => 2,
+						'container_id' => 'defaultmenu',
 						'container' => 'div',
 						'container_class' => 'collapse navbar-collapse',
 						'menu_class' => 'nav navbar-nav',

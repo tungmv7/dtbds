@@ -26,7 +26,7 @@
     });
 
     // Menu
-    $('.dropdown-toggle').dropdownHover().dropdown().on('click', function(e) {
+    $('#defaultmenu .dropdown-toggle').dropdownHover().dropdown().on('click', function(e) {
         location.href = this.href;
     });
 

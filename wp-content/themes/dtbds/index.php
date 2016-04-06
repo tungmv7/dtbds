@@ -60,11 +60,11 @@
     <section class="generalwrapper dm-shadow clearfix">
         <div class="container">
             <div class="row">
-                <div class="col-lg-2 col-md-3 col-sm-3 col-xs-12 first clearfix">
+                <div class="hidden-sm hidden-xs col-lg-2 col-md-3 first clearfix">
                     <?= get_template_part('template-parts/project', 'categories') ?>
                     <?php dynamic_sidebar('ads-homepage-1') ?>
                 </div>
-                <div class="col-lg-7 col-md-9 col-sm-9 col-xs-12 clearfix">
+                <div class="col-lg-7 col-md-9 col-sm-12 clearfix">
                     <div id="tabbed_widget" class="tabbable clearfix">
                         <?php
                         $areas = get_terms("project-area", ['orderby' => 'count', 'limit' => 5, 'order' => 'DESC']);
@@ -80,7 +80,7 @@
                             </ul>
                         <?php endif; ?>
                         <div class="tab-content tabbed_widget clearfix">
-                            <div class="tab-pane active" id="prj-location-all">
+                            <div class="tab-pane row active" id="prj-location-all">
                                 <?php
                                 $projects = getProjects(9);
                                 if ($projects) {
@@ -95,7 +95,7 @@
                             <?php
                                 foreach($areas as $area):
                             ?>
-                                <div class="tab-pane" id="prj-location-<?= $area->slug ?>">
+                                <div class="tab-pane row" id="prj-location-<?= $area->slug ?>">
                                     <?php
                                     $projects = getProjects(9, 1, [
                                         'tax_query' => [
@@ -203,6 +203,7 @@
 
                 <div class="col-lg-7 col-md-7 col-sm-12">
                     <h3 class="big_title"><?= pll__("News") . " & " . pll__("Updates") ?> <small><?= pll__("The most popular real estate news") ?></small></h3>
+                    <div class="row">
                     <?php
                     $news = getNews(2);
                     if ($news) {
@@ -212,6 +213,7 @@
                         }
                     }
                     ?>
+                    </div>
                 </div><!-- end col7 -->
             </div><!-- end row -->
         </div><!-- end dm_container -->
