@@ -51,7 +51,7 @@ get_header(); ?>
 					</div>
 
 					<div class="clearfix"></div>
-					<div class="row col-sm-12 property_wrapper clearfix">
+					<div class="col-sm-12 property_wrapper clearfix">
 						<?php
 						the_content();
 						?>

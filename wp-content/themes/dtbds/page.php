@@ -12,13 +12,15 @@ get_header(); ?>
 			</div><!-- #left_sidebar -->
 
 			<div id="content" class="col-lg-7 col-md-6 col-sm-6 col-xs-12 clearfix">
-				<div class="col-sm-12">
-					<?php
-					// Start the loop.
-					while ( have_posts() ) : the_post();
-						the_content();
-					endwhile;
-					?>
+				<div class="row">
+					<div class="col-sm-12">
+						<?php
+						// Start the loop.
+						while ( have_posts() ) : the_post();
+							the_content();
+						endwhile;
+						?>
+					</div>
 				</div>
 			</div><!-- end content -->
 
