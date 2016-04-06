@@ -2289,18 +2289,36 @@ ul.real-estate-cats-widget li ul {
 }
 
 @media (max-width: 480px) {
+    #one-parallax .dm-shadow, #one-parallax .dm-shadow .container {
+        padding: 0;
+    }
+    #one-parallax .dm-shadow .container .ps-desc h3 a {
+        display: -webkit-box;
+        height: 34px;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
     .ps-desc {
         width: 200px;
-        top: 6em;
+        top: 10em;
         padding: 5px 15px 0;
-        border-radius: 20px 0 0 20px;
     }
     .ps-desc h3 {
-        font-size: 12px;
+        font-size: 10px;
+        line-height: 16px;
     }
     .ps-desc .type,
     .ps-desc .price,
-    .ps-desc .status,
+    .ps-desc .status {
+        height: 3px;
+        overflow: hidden;
+        padding: 0;
+        bottom: 0;
+    }
+
     .social.clearfix,
     .marketing {
         display: none;
