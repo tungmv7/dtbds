@@ -38,7 +38,7 @@
             controlNav: true,
             directionNav: false,
             animationLoop: true,
-            slideshow: true,
+            slideshow: false,
             itemWidth: 114,
             itemMargin: 0,
             asNavFor: '#slider'
@@ -48,14 +48,14 @@
             animation: "fade",
             controlNav: false,
             animationLoop: false,
-            slideshow: true,
+            slideshow: false,
         });
 
         $('#slider').flexslider({
             animation: "fade",
             controlNav: false,
             animationLoop: false,
-            slideshow: true,
+            slideshow: false,
             sync: "#carousel"
         });
 
@@ -65,7 +65,15 @@
             animationSpeed:	1300,
             directionNav: true,
             controlNav: false,
-            keyboardNav: true
+            keyboardNav: true,
+            slideshow: true,
+        });
+
+        $('#accordion_project_information').on('shown.bs.collapse', function () {
+            var panel = $(this).find('.in');
+            $('html, body').animate({
+                scrollTop: panel.offset().top - 95
+            }, 200);
         });
 
     });
