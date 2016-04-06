@@ -1,4 +1,4 @@
-<div class="col-lg-6 col-md-6 col-sm-12 <?= $class ?>">
+<div class="col-lg-6 col-md-6 col-sm-12">
     <article class="blog-wrap">
         <?php if ($thumbnail = get_the_post_thumbnail_url(get_the_ID(), "thumbnail")): ?>
             <div class="ImageWrapper blog-media">

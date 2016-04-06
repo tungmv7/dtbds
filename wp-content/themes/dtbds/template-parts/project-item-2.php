@@ -1,6 +1,6 @@
 <?php
 $prjData = getProjectData(get_post());
-if ($prjData['thumbnail']):
+if (isset($prjData['thumbnail'])):
     ?>
     <div class="col-lg-4 col-md-4 col-sm-4">
         <div class="boxes">

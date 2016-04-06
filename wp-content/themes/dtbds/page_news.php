@@ -26,7 +26,6 @@ get_header(); ?>
 						get_template_part('template-parts/news', 'item-not-found');
 					}
 					?>
-					?>
 				</div>
 				<?php if ($news->max_num_pages > 1): ?>
 					<div class="pagination_wrapper clearfix">

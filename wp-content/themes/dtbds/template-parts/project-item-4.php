@@ -1,6 +1,6 @@
 <?php
 $prjData = getProjectData(get_post());
-if ($prjData['thumbnail']):
+if (isset($prjData['thumbnail'])):
 ?>
     <li>
         <div class="ps-mini-desc">

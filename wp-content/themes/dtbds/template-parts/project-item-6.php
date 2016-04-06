@@ -1,6 +1,6 @@
 <?php
 $prjData = getProjectData(get_post());
-if ($prjData['featured_project_image']):
+if (isset($prjData['featured_project_image'])):
     ?>
     <li>
         <div class="desc">

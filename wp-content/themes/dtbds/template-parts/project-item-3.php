@@ -1,6 +1,6 @@
 <?php
 $prjData = getProjectData(get_post());
-if ($prjData['thumbnail']):
+if (isset($prjData['thumbnail'])):
     ?>
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
         <div class="boxes first effect-slide-bottom in" data-effect="slide-bottom" style="transition: all 0.7s ease-in-out;">
