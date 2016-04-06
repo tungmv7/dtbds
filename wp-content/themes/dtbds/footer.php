@@ -1,3 +1,4 @@
+<?php $contactData = wp_cache_get('contact-data'); ?>
 <section class="copyright">
     <div class="container">
         <div class="row">
@@ -29,9 +30,6 @@
 <script src="<?= get_template_directory_uri() ?>/js/fhmm.min.js"></script>
 <script src="<?= get_template_directory_uri() ?>/fancyBox/jquery.fancybox.pack.js"></script>
 <script src="<?= get_template_directory_uri() ?>/js/application.js"></script>
-
-<!-- FlexSlider JavaScript
-================================================== -->
 <script src="<?= get_template_directory_uri() ?>/js/jquery.flexslider.min.js"></script>
 <script>
     $(window).load(function() {
@@ -70,14 +68,6 @@
             keyboardNav: true
         });
 
-        $('#slider-who-are-we').flexslider({
-            animation: "fade",
-            slideshowSpeed: 6000,
-            animationSpeed:	1300,
-            directionNav: true,
-            controlNav: false,
-            keyboardNav: true
-        });
     });
 </script>
 <?= wp_footer() ?>
