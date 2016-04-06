@@ -35,7 +35,7 @@ while(have_posts()): the_post();
                             <ul class="slides">
                                 <?php foreach( $images as $image ): ?>
                                     <li>
-                                        <img class="img-thumbnail" src="<?= $image['sizes']['large']; ?>" alt="<?php echo $image['alt']; ?>" />
+                                        <img class="img-thumbnail" src="<?= $image['sizes']['medium']; ?>" alt="<?php echo $image['alt']; ?>" />
                                     </li>
                                 <?php endforeach; ?>
                             </ul>
