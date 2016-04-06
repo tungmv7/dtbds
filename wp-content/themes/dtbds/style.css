@@ -2289,9 +2289,13 @@ ul.real-estate-cats-widget li ul {
 }
 
 @media (max-width: 480px) {
-    #one-parallax .dm-shadow, #one-parallax .dm-shadow .container {
+    #one-parallax .overlay1 {
+        padding: 10px 0;
+    }
+    #one-parallax .row > .main-custom-slide-container{
         padding: 0;
     }
+
     #one-parallax .dm-shadow .container .ps-desc h3 a {
         display: -webkit-box;
         height: 34px;

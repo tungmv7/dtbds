@@ -5,7 +5,7 @@
             <div class="overlay1 dm-shadow">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="col-lg-12 col-md-12 col-sm-12 main-custom-slide-container">
                             <div id="property-slider" class="clearfix">
                                 <div class="flexslider">
                                     <ul class="slides">
