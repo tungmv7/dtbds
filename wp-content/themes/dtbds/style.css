@@ -2264,6 +2264,10 @@ ul.real-estate-cats-widget li ul {
     padding: 5px;
 }
 
+.boxes_img.ImageWrapper .img-responsive{
+    width: 100%;
+}
+
 /*	################################################################
 	10. RESPONSIVE
 ################################################################# */
@@ -2346,9 +2350,15 @@ ul.real-estate-cats-widget li ul {
         text-overflow: ellipsis;
         display: block;
     }
+    .blog-wrap .post-content {
+        padding: 0;
+    }
 }
 
 @media (max-width: 667px) and (min-width: 481px) {
+    .blog-wrap .post-content {
+        padding: 0;
+    }
     #tabbed_widget .nav > li > a {
         font-size: 11px;
     }
