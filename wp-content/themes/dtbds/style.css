@@ -1193,10 +1193,6 @@ ul.real-estate-cats-widget li ul li ul li a {
     margin: 10px 20px 10px 0;
 }
 
-.property_wrapper {
-    padding: 20px !important;
-}
-
 .agent_boxes .big_title,
 .property_wrapper .big_title {
     margin: 10px 0 30px;
@@ -1228,6 +1224,7 @@ ul.real-estate-cats-widget li ul li ul li a {
     font-weight: bold !important;
     margin: 15px 0;
     text-transform: uppercase;
+    line-height: 30px;
 }
 
 .property_wrapper.boxes .title {
@@ -1471,6 +1468,10 @@ ul.real-estate-cats-widget li ul li ul li a {
     display: block;
     text-transform: uppercase;
     padding-bottom: 0;
+}
+
+.property_wrapper {
+    padding: 20px;
 }
 
 .boxed_details li {
@@ -2238,8 +2239,12 @@ ul.real-estate-cats-widget li ul {
     margin: 15px 0;
 }
 
+.logo-inline img{
+    height: 30px;
+}
+
 .navbar-default .navbar-toggle{
-    margin: 22px 0;
+    margin: 10px 0;
     vertical-align: top;
     float: right;
 }
@@ -2249,6 +2254,14 @@ ul.real-estate-cats-widget li ul {
 
 .tabbed_widget {
     border: none
+}
+
+.property_wrapper .title > h3 > small.small_title {
+    font-size: 12px;
+    line-height: 16px;
+}
+.property_wrapper .title > h3 > small.small_title > mark {
+    padding: 5px;
 }
 
 /*	################################################################
@@ -2318,6 +2331,21 @@ ul.real-estate-cats-widget li ul {
     .tabbed_widget .boxes_img.ImageWrapper img {
         width: 100%;
     }
+    .property_wrapper {
+        padding: 0;
+        border: none;
+        box-shadow: none;
+    }
+    .property_wrapper .boxes_img.ImageWrapper a img{
+        width: 100%;
+    }
+    .breadcrumb,
+    .post-wrapper-top h2 {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        display: block;
+    }
 }
 
 @media (max-width: 667px) and (min-width: 481px) {
@@ -2329,6 +2357,21 @@ ul.real-estate-cats-widget li ul {
     }
     .tabbed_widget .boxes_img.ImageWrapper img {
         width: 100%;
+    }
+    .property_wrapper {
+        padding: 0;
+        border: none;
+        box-shadow: none;
+    }
+    .property_wrapper .boxes_img.ImageWrapper a img{
+        width: 100%;
+    }
+    .breadcrumb,
+    .post-wrapper-top h2 {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        display: block;
     }
     .marketing {
         display: none;
@@ -2495,6 +2538,6 @@ ul.real-estate-cats-widget li ul {
     text-overflow: ellipsis;
 }
 
-#content ul {
+#content .panel-body ul {
     margin-left: 1.2em;
 }
