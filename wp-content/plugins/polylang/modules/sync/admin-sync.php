@@ -83,6 +83,10 @@ class PLL_Admin_Sync {
 			$taxonomies[] = 'post_format';
 		}
 
+		// hard code to copy project real location and project homepage location
+		$taxonomies[] = 'project-area';
+		$taxonomies[] = 'mat-trang';
+
 		return array_unique( apply_filters( 'pll_copy_taxonomies', $taxonomies, $sync ) );
 	}
 
