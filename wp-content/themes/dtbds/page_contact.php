@@ -18,8 +18,8 @@ get_header(); ?>
 				while ( have_posts() ) : the_post();
 				?>
 					<div class="row modal-body clearfix" style="padding-top: 0;">
-						<h3 class="big_title" style="margin-top: 0;">Do you have questions? <small>Dont worry! We're here to help you</small></h3>
-						<p>Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free.</p>
+						<h3 class="big_title" style="margin-top: 0; margin-bottom: 10px"><?= pll__("Do you have questions?") ?></h3>
+						<p><?= pll__("Please leave a message. We will contact with you as soon as possible we can.")?></p>
 						<hr>
 						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 							<div class="ImageWrapper boxes_img">
