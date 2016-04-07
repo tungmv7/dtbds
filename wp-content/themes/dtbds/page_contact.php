@@ -42,9 +42,9 @@ get_header(); ?>
 							<style type="text/css">.wpcf7 .btn-primary {margin-top: 10px;} .wpcf7-response-output {margin: 2em 0 1em}</style>
 							<?php
 								if (pll_current_language() == 'en') {
-									echo do_shortcode('[contact-form-7 id="769" title="Contact form 1"]');
+									echo do_shortcode('[contact-form-7 id="774" title="Contact form 1"]');
 								} else {
-									echo do_shortcode('[contact-form-7 id="770" title="Contact form vi"]');
+									echo do_shortcode('[contact-form-7 id="775" title="Contact form vi"]');
 								}
 							?>
 						</div>
