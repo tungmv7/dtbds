@@ -39,14 +39,14 @@ get_header(); ?>
 						</div>
 
 						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-							<form id="contact" class="row">
-								<input type="text" class="form-control" placeholder="<?= pll__("Name") ?>">
-								<input type="text" class="form-control" placeholder="<?= pll__("Email") ?>">
-								<input type="text" class="form-control" placeholder="<?= pll__("Phone") ?>">
-								<input type="text" class="form-control" placeholder="<?= pll__("Subject") ?>">
-								<textarea class="form-control" rows="5" placeholder="<?= pll__("Message goes here") ?>..."></textarea>
-								<button class="btn btn-primary"><?= pll__("Send Message") ?></button>
-							</form>
+							<style type="text/css">.wpcf7 .btn-primary {margin-top: 10px;} .wpcf7-response-output {margin: 2em 0 1em}</style>
+							<?php
+								if (pll_current_language() == 'en') {
+									echo do_shortcode('[contact-form-7 id="769" title="Contact form 1"]');
+								} else {
+									echo do_shortcode('[contact-form-7 id="770" title="Contact form vi"]');
+								}
+							?>
 						</div>
 					</div>
 
