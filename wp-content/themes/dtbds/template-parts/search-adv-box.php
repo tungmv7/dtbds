@@ -1,5 +1,5 @@
 <form id="advanced_search_module"
-      class="clearfix" action="<?= pll_home_url() . "tim-kiem" ?>" name="advanced_search_module" method="get" style="margin: 0;">
+      class="clearfix" action="<?= pll_current_language() == 'en' ? pll_home_url() . 'search' : pll_home_url() . 'tim-kiem'  ?>" name="advanced_search_module" method="get" style="margin: 0;">
     <div class="col-xs-12">
         <label for="location"><?= pll__("Keywords") ?></label>
         <input type="text" class="form-control" placeholder="Gõ tên dự án để tìm kiếm..." name="q" value="<?= $formAttributes['q'] ?>">
@@ -21,7 +21,7 @@
         <select id="advanced_search_module_status" class="form-control" name="status">
             <option value="all"><?= pll__("All") ?></option>
             <?php
-            foreach(get_terms("project-status", "order=DESC") as $status) {
+            foreach(get_terms("project-status", ["order" => 'DESC', 'lang' => pll_current_language()]) as $status) {
                 $selected = $formAttributes['status'] == $status->slug ? "selected" : "";
                 echo "<option value='".$status->slug."' $selected>".$status->name."</option>";
             }
@@ -33,7 +33,7 @@
         <select id="lptype" class="form-control" name="type">
             <option value="all"><?= pll__("All") ?></option>
             <?php
-            foreach(get_terms("project-type", "order=DESC") as $type) {
+            foreach(get_terms("project-type", ["order" => 'DESC', 'lang' => pll_current_language()]) as $type) {
                 $selected = $formAttributes['type'] == $type->slug ? "selected" : "";
                 echo "<option value='".$type->slug."' $selected>".$type->name."</option>";
             }
