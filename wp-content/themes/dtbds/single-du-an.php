@@ -18,12 +18,12 @@ while(have_posts()): the_post();
 <section class="generalwrapper dm-shadow clearfix">
     <div class="container">
         <div class="row">
-            <div id="left_sidebar" class="hidden-sm hidden-xs col-lg-2 col-md-3 first clearfix">
+            <div id="left_sidebar" class="hidden-md hidden-sm hidden-xs col-lg-2 col-md-3 first clearfix">
                 <?= get_template_part('template-parts/project', 'categories') ?>
                 <?php dynamic_sidebar('ads-content-1') ?>
             </div><!-- #left_sidebar -->
 
-            <div id="content" class="col-lg-7 col-md-6 col-sm-6 col-xs-12 clearfix">
+            <div id="content" class="col-lg-7 col-md-9 col-sm-6 col-xs-12 clearfix">
 
 
                 <div class="property_wrapper boxes clearfix">
