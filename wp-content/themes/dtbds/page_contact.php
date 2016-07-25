@@ -31,7 +31,7 @@ get_header(); ?>
 							</div>
 							<div class="servicetitle"><h3><?= pll__("Contact Details") ?></h3></div>
 							<ul>
-								<li><i class="fa fa-envelope"></i> <?= get_field('contact_congty') ?></li>
+								<li><i class="fa fa-bank"></i> <?= get_field('contact_congty') ?></li>
 								<li><i class="fa fa-envelope"></i> <?= get_field('contact_email') ?></li>
 								<li><i class="fa fa-phone-square"></i> <?= get_field('contact_phone') ?></li>
 								<li><i class="fa fa-facebook-square"></i> <?= get_field('contact_facebook') ?></li>
