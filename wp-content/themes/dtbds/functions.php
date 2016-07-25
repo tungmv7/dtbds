@@ -20,6 +20,7 @@ function dtbds_setup()
     $contactPage = get_page_by_path('lien-he');
     $contactData = [
         'pageId' => $contactPage->ID,
+        'congty' => get_field('contact_congty', $contactPage->ID),
         'email' => get_field('contact_email', $contactPage->ID),
         'phone' => get_field('contact_phone', $contactPage->ID),
         'facebook' => get_field('contact_facebook', $contactPage->ID),
