@@ -11,6 +11,7 @@
         </div>
 
         <ul>
+            <li><?= $contactData['congty']?></li>
             <li><i class="fa fa-envelope"></i> <?= $contactData['email']?></li>
             <li><i class="fa fa-phone-square"></i> <?= $contactData['phone'] ?></li>
             <li><i class="fa fa-facebook-square"></i> <?= $contactData['facebook'] ?></li>
