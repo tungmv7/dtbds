@@ -12,9 +12,9 @@
 
         <ul>
             <li><i class="fa fa-home"></i> <?= $contactData['congty']?></li>
-            <li style="color: #656565;"><i class="fa fa-envelope"></i> <a href="mailto:<?= $contactData['email']?>"><?= $contactData['email']?></a></li>
+            <li><i class="fa fa-envelope"></i> <a style="color: #656565;" href="mailto:<?= $contactData['email']?>"><?= $contactData['email']?></a></li>
             <li><i class="fa fa-phone-square"></i> <?= $contactData['phone'] ?></li>
-            <li style="white-space: nowrap;color: #656565;"><i class="fa fa-facebook-square"></i> <a href="<?= $contactData['facebook'] ?>" target="_blank"><?= $contactData['facebook'] ?></a></li>
+            <li style="white-space: nowrap;"><i class="fa fa-facebook-square"></i> <a style="color: #656565;" href="<?= $contactData['facebook'] ?>" target="_blank"><?= $contactData['facebook'] ?></a></li>
             <li><i class="fa fa-share-square"></i> <?= $contactData['address'] ?></li>
         </ul>
     </div>
