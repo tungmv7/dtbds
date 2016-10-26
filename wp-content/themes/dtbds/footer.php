@@ -35,7 +35,7 @@
 <script>
     $(window).load(function() {
 
-        $(".sticky").sticky({
+        $(".single-post-sidebar .sticky").sticky({
             topSpacing:10
         });
 
