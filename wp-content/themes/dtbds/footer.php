@@ -35,8 +35,9 @@
 <script>
     $(window).load(function() {
 
-        $(".single-post-sidebar .sticky").sticky({
-            topSpacing:10
+        $(".sticky-col .sticky").sticky({
+            topSpacing:10,
+            bottomSpacing: 75
         });
 
         $('#carousel').flexslider({

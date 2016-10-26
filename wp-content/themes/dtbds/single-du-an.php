@@ -155,7 +155,7 @@ while(have_posts()): the_post();
                 </div>
             </div><!-- end content -->
 
-            <div id="right_sidebar" class="col-lg-3 col-md-3 col-sm-3 col-xs-12 last clearfix">
+            <div id="right_sidebar" class="col-lg-3 col-md-3 col-sm-3 col-xs-12 sticky-col last clearfix">
                 <?= get_sidebar() ?>
             </div><!-- end sidebar -->
 
