@@ -31,8 +31,14 @@
 <script src="<?= get_template_directory_uri() ?>/fancyBox/jquery.fancybox.pack.js"></script>
 <script src="<?= get_template_directory_uri() ?>/js/application.js"></script>
 <script src="<?= get_template_directory_uri() ?>/js/jquery.flexslider.min.js"></script>
+<script src="<?= get_template_directory_uri() ?>/js/jquery.sticky.min.js"></script>
 <script>
     $(window).load(function() {
+
+        $(".sticky").sticky({
+            topSpacing:10
+        });
+
         $('#carousel').flexslider({
             animation: "slide",
             controlNav: true,
