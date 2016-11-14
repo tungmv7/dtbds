@@ -3,7 +3,8 @@
     <div>
         <div class="ImageWrapper boxes_img">
             <?php
-            $contactData = wp_cache_get('contact-data');
+            $lang = pll_current_language();
+            $contactData = wp_cache_get('contact-data-'.$lang);
             if (!empty($contactData['thumbnail'])){
                 echo "<img src=\"".$contactData['thumbnail']['sizes']['featured-project-image']."\" class=\"img-responsive\" alt=\"\">";
             }

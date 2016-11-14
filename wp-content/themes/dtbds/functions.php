@@ -17,6 +17,7 @@ function dtbds_setup()
         'top_menu' => __('Primary Menu', 'dtbds'),
     ));
 
+    // get contact page vi
     $contactPage = get_page_by_path('lien-he');
     $contactData = [
         'pageId' => $contactPage->ID,
@@ -30,6 +31,22 @@ function dtbds_setup()
         'thumbnail' => get_field('contact_gallery', $contactPage->ID)[0]
     ];
     wp_cache_set('contact-data', $contactData);
+    wp_cache_set('contact-data-vi', $contactData);
+
+    // get contact page en
+    $contactPageEn = get_page_by_path('contact');
+    $contactPageEn = [
+        'pageId' => $contactPageEn->ID,
+        'congty' => get_field('contact_congty', $contactPageEn->ID),
+        'email' => get_field('contact_email', $contactPageEn->ID),
+        'phone' => get_field('contact_phone', $contactPageEn->ID),
+        'facebook' => get_field('contact_facebook', $contactPageEn->ID),
+        'address' => get_field('contact_address', $contactPageEn->ID),
+        'google-plus' => '',
+        'rss' => '',
+        'thumbnail' => get_field('contact_gallery', $contactPageEn->ID)[0]
+    ];
+    wp_cache_set('contact-data-en', $contactPageEn);
 
 //    /*
 //     * Switch default core markup for search form, comment form, and comments
