@@ -67,6 +67,9 @@ get_header(); ?>
 			<div id="right_sidebar" class="col-lg-3 col-md-3 col-sm-3 col-xs-12 last sticky-col clearfix">
 				<?= get_sidebar() ?>
 			</div><!-- end sidebar -->
+			<style>
+				#right_sidebar .contact-box {display: none;}
+			</style>
 
 		</div><!-- end row -->
 	</div><!-- end container -->

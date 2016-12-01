@@ -82,7 +82,7 @@
                         <div class="tab-content tabbed_widget clearfix">
                             <div class="tab-pane row active" id="prj-location-all">
                                 <?php
-                                $projects = getProjects(9);
+                                $projects = getProjects(12);
                                 if ($projects) {
                                     while ($projects->have_posts()) {
                                         $projects->the_post();
